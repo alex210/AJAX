@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 90px;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.search {
+  font: 40px Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.1em;
+}
+
+.p {
+  color: #4583f4;
+}
+
+.o {
+  color: #f04146;
+}
+
+.i {
+  color: #fdb801;
+}
+
+.s {
+  color: #4385f5;
+}
+
+.k {
+  color: #36a757;
+}
+
+.logo {
+  float: left;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.lineSearch {
+  float: left;
+  width: 630px;
+  height: 40px;
+  font: 16px Arial, sans-serif;
+  border: 1px solid #dfdfdf;
+  border-bottom: 1px solid #bcbcbc;
+  border-radius: 2px;
+  transition: all 500ms;
+  padding-left: 20px;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.lineSearch:hover {
+  box-shadow: 0 2px 5px 2px rgba(188, 188, 188, 0.5);
+}
+
+.lineSearch:focus {
+  outline: none;
+}
+
+button {
+  font: 15px Arial, sans-serif;
+  font-weight: 700;
+  color: #fff;
+  background-color: #4583f4;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  margin-top: 27px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.searchExtradition {
+  width: 630px;
+  margin-left: 165px;
+}
+
+.displayLink {
+  text-decoration: none;
+  font: 18px Arial, sans-serif;
+  color: #1b11a6;
+  display: block;
+  margin-top: 30px;
+}
+
+.formattedUrl {
+  font: 15px Arial, sans-serif;
+  color: #006b23;
+}
+
+.htmlSnippet {
+  font: 14px Arial, sans-serif;
+}
